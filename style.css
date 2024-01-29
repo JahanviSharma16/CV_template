@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+body{
+    color: grey;
+    min-height: 100vh;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    position: relative;
+    width: 100%;
+}
+.image{
+    color: black;
+    max-width: 100%;
+    padding: 12px;
+
+}
+.container{
+    min-height: 100vh;
+    padding-bottom: 2.5rem;
+}
+
+.content{
+    position: absolute;
+    margin-top: 2vh;
+    margin-left: 5vh;
+    max-width: 30%;
+    border-radius: 5px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+.grid{
+    padding: 20px;
+}
+.about{
+    max-width: 40vh;
+}
+.about-me{
+    display: flex;
+    margin: 2vh;
+    align-items: center;
+}
+.material-icons{
+    padding-right: 12px;
+    color: #009688;
+}
+
+.skill-me{
+    display: flex;
+    margin: 15px;
+    align-items: center;
+}
+.lang{
+    font-size: 18px;
+    margin:2vh;
+}
+.slider{
+    margin: 2vh 0;
+    color: white;
+    text-align: center;
+    align-items: center;
+    font-size: 15px;
+    border: 1px solid #009688;
+    border-radius: 10px;
+    border-color: #009688;
+}
+.certificate{
+        display: flex;
+        margin: 15px;
+        align-items: center;
+}
+.ctn{
+    margin-right: auto;
+    float: right;
+    border-radius: 5px;
+    padding: 8px 6px;
+    background-color: #009688;
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.certi{
+    margin: 4vh 2vw;
+}
+.for-space{
+    display: inline-block;
+    text-align: right;
+}
+.project{
+    margin-top: 2vw;
+    padding: 10px;
+    width: 60%;
+    position: absolute;
+    top: 0;
+    right: 3vw;
+    margin-bottom: 16px;
+    color:grey;
+    border-radius: 5px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+}
+.proj{
+    display: flex;
+    margin: 3vw 3vw;
+    align-items: center;
+}
+
+.project-heading{
+    font-weight: bold;
+    margin-top: 4vh;
+    margin-left: 2.5vw;
+    margin-bottom: 2vw;
+    font-size: 25px;
+}
+.project-content{
+    display: block;
+}
+.btn{
+    margin: 3vw 5vw;
+    float: right;
+    border-radius: 5px;
+    padding: 8px 10px;
+    background-color: #009688;
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.project-about{
+    text-align: justify;
+    color: black;
+    font-size: 16px;
+    display: block;
+    margin: 3vh 3vw;
+}
+
+.education{
+    padding: 10px;
+    width: 60%;
+    position: absolute;
+    top: 87vh;
+    right: 3vw;
+    /* margin-bottom: 0; */
+    color:grey;
+    border-radius: 5px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+}
+.edu{
+    display: flex;
+    margin: 3vw 3vw;
+    align-items: center;
+}
+.school{
+    font-weight: bold;
+    margin-top: 4vh;
+    margin-left: 2.5vw;
+    margin-bottom: 2vw;
+    font-size: 25px;
+}
+.icon{
+    color: #009688;
+    margin-left: 2.5vw;
+}
+.course{
+    text-align: justify;
+    color: black;
+    font-size: 16px;
+    display: block;
+    margin: 2vw 3vw;
+}
+.resume{
+    text-align: center;
+    padding: 10vh;
+    width: 60%;
+    position: absolute;
+    top: 150vh;
+    right: 3vw;
+}
+.download{
+    font-size: 18px;
+<<<<<<< HEAD
+    margin: 2vw vw;
+=======
+    margin: 2vw;
+>>>>>>> 1b92dc9bb21480624049ec1b5294c064882de4a7
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    padding: 15px 15px;
+    background-color: #009688;
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+footer{
+    margin-top: 550px;
+    width: 100%;
+    background-color: #009688;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .content {
+        margin: 0;
+        max-width: 100%;
+        position: static;
+    }
+
+    .project {
+        position: static;
+        width: 100%;
+    }
+    .education{
+        width: 100%;
+        position: static;
+    }
+    .resume{
+        width: 100%;
+        position: static;
+    }
+    footer{
+        margin-top: 0px;
+    }
+
+}
